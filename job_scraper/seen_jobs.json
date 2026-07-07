@@ -127,6 +127,110 @@
       "first_seen": "2026-07-07",
       "fit": "medium",
       "status": "new"
+    },
+    "pearse-partners-ma-associate-generalist-madrid-4325760401": {
+      "title": "M&A Associate - Generalist",
+      "company": "Pearse Partners",
+      "url": "https://es.linkedin.com/jobs/view/m-a-associate-generalist-madrid-at-pearse-partners-4325760401",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "barclays-corporate-development-associate-avp-london-4354186635": {
+      "title": "Corporate Development Associate - AVP",
+      "company": "Barclays",
+      "url": "https://uk.linkedin.com/jobs/view/corporate-development-associate-avp-at-barclays-4354186635",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "lockton-avp-corporate-development-associate-london-4300050803": {
+      "title": "AVP Corporate Development Associate",
+      "company": "Lockton",
+      "url": "https://uk.linkedin.com/jobs/view/avp-corporate-development-associate-at-lockton-4300050803",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "efc-ma-strategy-manager-madrid-id22991567": {
+      "title": "M&A Strategy Manager",
+      "company": "Accenture (via eFinancialCareers)",
+      "url": "https://www.efinancialcareers.com/jobs-Spain-Madrid-MA_Strategy_Manager.id22991567",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
+    },
+    "efc-ib-analyst-consumer-ma-european-ib-london-id23882487": {
+      "title": "Investment Banking Analyst, Consumer M&A, European Investment Bank",
+      "company": "Unnamed (via eFinancialCareers)",
+      "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Investment_Banking_Analyst_Consumer_MA_European_Investment_Bank.id23882487",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
+    },
+    "efc-ib-emea-ma-associate-london-id23826102": {
+      "title": "Investment Banking - EMEA M&A - Associate",
+      "company": "Unnamed (via eFinancialCareers)",
+      "url": "https://www.efinancialcareers.co.uk/jobs-United_Kingdom-London-Investment_Banking_-_EMEA_MA_-_Associate_-_London.id23826102",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
+    },
+    "efc-finance-analyst-ma-financial-services-london-id23974630": {
+      "title": "Finance Analyst (M&A) - Financial Services",
+      "company": "Unnamed (via eFinancialCareers)",
+      "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Finance_Analyst_MA_-_Financial_Services.id23974630",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
+    },
+    "efc-insurance-ma-analyst-london-id22485815": {
+      "title": "Insurance M&A Analyst",
+      "company": "Unnamed (via eFinancialCareers)",
+      "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-Insurance_MA_Analyst.id22485815",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
+    },
+    "efc-ma-intern-to-analyst-midmarket-tmt-advisory-london-3438693036": {
+      "title": "M&A Intern-to-Analyst / Analyst 1 / Analyst 2 - Mid-market TMT Advisory",
+      "company": "Unnamed (via eFinancialCareers/LinkedIn)",
+      "url": "https://uk.linkedin.com/jobs/view/m-a-intern-to-analyst-analyst-1-analyst-2-mid-market-tmt-advisory-at-jobs-via-efinancialcareers-3438693036",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "efc-technology-ma-senior-associate-vp-bulge-bracket-london-3970009725": {
+      "title": "Technology M&A Senior Associate and VP - Bulge Bracket IB",
+      "company": "Unnamed (via eFinancialCareers/LinkedIn)",
+      "url": "https://uk.linkedin.com/jobs/view/technology-m-a-senior-associate-and-vp-bulge-bracket-ib-at-jobs-via-efinancialcareers-3970009725",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "citi-ib-associate-technology-ma-london-4382245429": {
+      "title": "Investment Banking Associate, Technology M&A",
+      "company": "Citi",
+      "url": "https://www.linkedin.com/jobs/view/investment-banking-associate-technology-m-a-at-citi-4382245429",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
+    },
+    "energy-infrastructure-ma-analyst-associate-london-4390983364": {
+      "title": "Energy & Infrastructure M&A Analyst / Associate",
+      "company": "Leading mid-market M&A advisor (unnamed)",
+      "url": "https://uk.linkedin.com/jobs/view/energy-infrastructure-m-a-analyst-associate-at-leading-mid-market-m-a-advisor-4390983364",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "alantra-ib-analyst-technology-madrid-jr243": {
+      "title": "Investment Banking Analyst - Technology",
+      "company": "Alantra",
+      "url": "https://alantra.wd3.myworkdayjobs.com/en-US/Alantra/job/Investment-Banking-Analyst---Technology_JR243",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-fetch-failed"
     }
   }
 }

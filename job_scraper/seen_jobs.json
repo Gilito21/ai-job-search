@@ -231,6 +231,94 @@
       "first_seen": "2026-07-07",
       "fit": "unknown",
       "status": "skipped-fetch-failed"
+    },
+    "armapartners-analyst-associate-technology-ma-london": {
+      "title": "Analyst/Associate (Technology M&A)",
+      "company": "Arma Partners",
+      "url": "https://www.armapartners.com/ma-analyst-london/",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "alantra-senior-ib-analyst-associate-tech-sector-madrid-4340460633": {
+      "title": "Senior Investment Banking Analyst / Associate - Technology Sector",
+      "company": "Alantra",
+      "url": "https://es.linkedin.com/jobs/view/senior-investment-banking-analyst-associate-%E2%80%93-technology-sector-spain-at-alantra-4340460633",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "sportradar-corporate-development-analyst-london-2026": {
+      "title": "Corporate Development Analyst",
+      "company": "Sportradar",
+      "url": "https://jobs.smartrecruiters.com/Sportradar/744000043247635-corporate-development-analyst",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "skipped-expired"
+    },
+    "unikal-tech-partners-analista-asociado-ma-madrid-4437728828": {
+      "title": "Analista/Asociado M&A",
+      "company": "UNIKAL Tech Partners",
+      "url": "https://es.linkedin.com/jobs/view/analista-asociado-m-a-at-unikal-tech-partners-4437728828",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "jefferies-associate-tech-ma-team-london-4435448835": {
+      "title": "Associate - Tech M&A Team",
+      "company": "Jefferies",
+      "url": "https://uk.linkedin.com/jobs/view/associate-tech-m-a-team-at-jefferies-4435448835",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new-sponsorship-unconfirmed"
+    },
+    "houlihan-lokey-associate-corporate-finance-tech-ma-london-4422396499": {
+      "title": "Associate - Corporate Finance (Technology M&A / Digital Infrastructure)",
+      "company": "Houlihan Lokey",
+      "url": "https://uk.linkedin.com/jobs/view/associate-corporate-finance-technology-m-a-at-houlihan-lokey-4422396499",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new-sponsorship-unconfirmed"
+    },
+    "tide-corporate-development-analyst-london-7499628003": {
+      "title": "Corporate Development Analyst",
+      "company": "Tide",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/7499628003",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "gitlab-corporate-development-analyst-7882194002": {
+      "title": "Corporate Development Analyst",
+      "company": "GitLab",
+      "url": "https://job-boards.greenhouse.io/gitlab/jobs/7882194002",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "revolut-finance-strategy-manager-corp-dev-london-8487320d": {
+      "title": "Finance & Strategy Manager (Corporate Development)",
+      "company": "Revolut",
+      "url": "https://www.revolut.com/careers/position/finance-strategy-manager-corporate-development-8487320d-b211-4ea2-b1bf-1b46a5d0d688/",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-unverified-fetch-blocked"
+    },
+    "jobandtalent-strategy-analyst-remote-b78f51e6": {
+      "title": "Strategy Analyst (Remote)",
+      "company": "Job&Talent",
+      "url": "https://jobs.lever.co/jobandtalent/b78f51e6-cfdb-4e44-a806-25fbd711c816",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-unverified-fetch-blocked"
+    },
+    "jobandtalent-senior-strategy-analyst-ib-pe-14dc9a4a": {
+      "title": "Senior Strategy Analyst (Investment Banking / Private Equity Focus)",
+      "company": "Job&Talent",
+      "url": "https://jobs.lever.co/jobandtalent/14dc9a4a-758d-4e68-85f9-58cfbb5d1517",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
     }
   }
 }

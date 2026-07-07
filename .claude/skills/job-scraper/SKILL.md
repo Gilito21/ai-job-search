@@ -1,7 +1,7 @@
 ---
 name: job-scraper
 description: >
-  Scrapes Danish job sites for new positions matching your profile. Deduplicates across runs.
+  Scrapes configured job sites for new positions matching your profile. Deduplicates across runs.
   Triggers on: job scrape, find jobs, search jobs, new jobs, job search, scrape jobs, /scrape
 allowed-tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch, Agent, AskUserQuestion
 ---
@@ -12,7 +12,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, WebFetch, WebSearch, Agent, AskUse
 
 ## How It Works
 
-This skill searches multiple Danish job sites using targeted queries based on your profile, deduplicates against previously seen jobs and the application tracker, and presents new matches with a quick fit assessment.
+This skill searches the job sites and pages configured in `search-queries.md` using targeted queries based on your profile, deduplicates against previously seen jobs and the application tracker, and presents new matches with a quick fit assessment.
 
 ## Invocation
 
@@ -38,22 +38,24 @@ Optional arguments:
 
 ### Step 1: Search
 
-Run **WebSearch** queries from `search-queries.md`. By default, run the top 3 priority categories. If the user said "broad", run all categories.
+Run the sources from `search-queries.md` for the top 3 priority categories by default. If the user said "broad", run all categories. If the user specified a focus area (e.g. "data science"), prioritize queries/pages from that category.
 
-If the user specified a focus area (e.g. "data science"), prioritize queries from that category.
+- **LinkedIn (primary):** `WebFetch` the role+city list pages listed in `search-queries.md` directly - do NOT `site:` search LinkedIn via WebSearch, it mostly returns expired listings or generic category pages rather than live postings. Ask WebFetch to list every posting shown (title, company, location, date, URL) from each list page.
+- **eFinancialCareers / infojobs.net (secondary):** Use `WebSearch` with the `site:` queries from `search-queries.md`. These sites block WebFetch (HTTP 405) - treat every hit as unverified.
+- **Known-employer career pages (tertiary):** Occasionally `WebFetch` the companies listed in `search-queries.md` directly.
 
-For each search:
-- Use `WebSearch` with site-specific queries (jobindex.dk, linkedin.com/jobs, karriere.dk, etc.)
-- Target your configured geographic area
-- Look for postings from the last 14 days
+Target your configured geographic area. Look for postings from the last 14 days.
 
 ### Step 2: Fetch & Parse
 
 For each promising result from Step 1:
-- Use `WebFetch` to retrieve the job posting page
-- Extract: **job title**, **company**, **location**, **posting date** (or "recent"), **URL**, **key requirements** (brief), **application deadline** (if listed)
+- Use `WebFetch` on the individual job URL to verify it and extract: **job title**, **company**, **location**, **posting date** (or "recent"), **URL**, **key requirements** (brief), **application deadline** (if listed)
 - Skip if the URL or company+title combo already exists in `seen_jobs.json`
 - Skip if the company+role already appears in `job_search_tracker.csv`
+- **If the fetch redirects to an expired/generic page** (e.g. LinkedIn's `expired_jd_redirect`) or **returns HTTP 405/blocked** (eFinancialCareers, infojobs.net) or **returns no usable content** (JS-rendered career pages like Workday): do not include the job in the verified results table. Instead:
+  - Expired/dead listings → record in `seen_jobs.json` as `status: "skipped-expired"` and drop entirely, don't mention in the digest
+  - Blocked/unverifiable but the listing looks like a real, relevant, open posting (from the WebSearch snippet or list-page text) → keep it, but only in a separate "found but could not verify automatically - check manually" section of the digest with its URL and the reason, never in the main matches table
+  - Do not retry a source that just failed with 405/blocked within the same run - it's a consistent block, not a transient error
 
 ### Step 3: Quick Fit Assessment
 
@@ -100,6 +102,9 @@ For each high-match job, add 2-3 bullet points:
 - Why it matches your profile
 - Key requirements to check
 - Any red flags
+
+### Found but couldn't verify automatically
+List any leads from blocked/unverifiable sources here (eFinancialCareers, infojobs.net, JS-rendered career pages), with title, company, location, URL, and the reason verification failed. These are not in the table above and should not be treated as confirmed-open.
 ```
 
 After presenting, ask:
@@ -120,4 +125,5 @@ If the user decides to apply to any job, add a row to `job_search_tracker.csv`.
 3. **Focus on configured geographic area.** Skip jobs that require relocation or are clearly outside commute range.
 4. **Only open positions.** Skip postings with expired deadlines or those marked as closed.
 5. **Be efficient with WebFetch.** Don't fetch every search result - use titles and snippets to pre-filter before fetching.
-6. **Parallel searches.** Use the Agent tool or parallel WebSearch calls to speed up the search phase.
+6. **Parallel searches.** Use the Agent tool or parallel WebSearch/WebFetch calls to speed up the search phase.
+7. **Never include an unverified posting in the main matches table.** If WebFetch can't confirm a listing is real and open (blocked, expired, no content), it goes in "Found but couldn't verify automatically" instead, or is dropped if clearly dead.

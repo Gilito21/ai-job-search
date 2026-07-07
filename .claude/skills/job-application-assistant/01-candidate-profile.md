@@ -1,60 +1,72 @@
 # Candidate Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all sections will be filled with your actual information -->
-
 ## Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_ADDRESS]
-- **Phone:** [YOUR_PHONE]
-- **Email:** [YOUR_EMAIL]
-- **LinkedIn:** [YOUR_LINKEDIN_URL]
-- **GitHub:** [YOUR_GITHUB_URL]
-- **Languages:** [YOUR_LANGUAGES with proficiency levels]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **Constraints:** [YOUR_COMMUTE_OR_LOCATION_CONSTRAINTS]
+- **Name:** Juan Peláez Echániz
+- **Location:** Madrid, Spain
+- **Phone:** (+34) 693 023 461
+- **Email:** Johnype12@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/juan-pelaez/
+- **GitHub:** N/A
+- **Languages:** Spanish (Native), English (Proficient, Cambridge Advanced Certificate C1), French (Basic)
+- **Status:** Employed (Analyst, Tech M&A at BlueBull Partners), open to new opportunities
+- **Constraints:** Based in Madrid; open to relocation, but only to Madrid or London
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| [DEGREE] | [YEARS] | [INSTITUTION] | [TOPICS] |
+| Dual Bachelor in Business Administration and Data & Business Analytics | Sep 2020 - Jul 2025 | IE Business School, Madrid and Segovia, Spain | Honors (Top 5%): Mathematics, Algorithms, Blockchain Technologies |
+| Exchange Program in Business Administration | Aug - Dec 2023 | UNC Kenan-Flagler Business School, North Carolina, USA | Business Administration |
 
 ## Professional Experience
 
-### [JOB_TITLE] - [COMPANY] ([START] - [END])
-[LOCATION]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_1]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_2]
-- [RESPONSIBILITY_OR_ACHIEVEMENT_3]
+### Analyst (Tech M&A) - BlueBull Partners (January 2026 - Present)
+Madrid, Spain
+- Advised on 3 mandates simultaneously (sell-side and buy-side), with a combined EV over €300M
+- Conducted in-depth research across verticals such as EdTech, B2B SaaS and IT Services
+- Leveraged Claude and other AI tools to accelerate deal research, financial modelling and pitch material, standardising deliverables and cutting analysis turnaround
 
-<!-- Add more roles as needed -->
+### Junior Analyst (Tech M&A) - BlueBull Partners (January 2025 - December 2025)
+Madrid, Spain
+- Supported companies with over €5M EBITDA in M&A, debt structuring and equity fundraising
+- Contributed to 10+ projects with pitch decks, financial models and industry analysis
+
+### Spring Insight Analyst (Investment Banking) - Citi (April 2023)
+London, United Kingdom
+- Developed competency in company valuation, financial strategy and market analysis
+- Built relationships with senior bankers across divisions, gaining first-hand exposure to the sector
 
 ## Independent Projects
-<!-- Projects outside of employment: freelance, open source, personal -->
-- **[PROJECT_NAME]**: [DESCRIPTION]
+- **IE Partner at The MergerSightGroup**: Covered up-to-date M&A transactions across all sectors. Led a team of 6 IE students and collaborated with over 100 students from top universities and analysts from institutions such as Goldman Sachs, J.P. Morgan and Blackstone
+- **Co-Founder of Lumière Prestige**: Non-profit startup producing and selling luxury handmade candles and soap bars. Generated over $3,000 in revenue in two months. Donated profits to Make-A-Wish
+- **Stanford University iD Tech Camp**: Attended programming and robotics courses with international campers (Palo Alto, California)
 
 ## Technical Skills
 
-### Programming & ML
-- **[LANGUAGE]** ([PROFICIENCY]): [FRAMEWORKS_AND_LIBRARIES]
-- [OTHER_SKILLS]
+### Programming & Data
+- **Python** (working proficiency): used for deal research and AI-augmented modelling workflows
+- **SQL** (working proficiency)
+- **Spark, R**: exposure through Data & Business Analytics coursework
 
 ### Domain Expertise
-- [DOMAIN_1]
-- [DOMAIN_2]
+- Tech M&A (EdTech, B2B SaaS, IT Services): sell-side and buy-side advisory
+- Investment banking: valuation, financial strategy, market analysis
+- AI-augmented deal workflows: using Claude and other LLM tools for research, modelling, and pitch material
 
 ### Software & Tools
-- [TOOL_LIST]
+- Advanced Excel, PowerPoint
+- Supabase, PostgreSQL
+- AI tools: Claude, ChatGPT, LLM-based research and modelling workflows
+- Financial databases and tools
 
 ## Publications
-<!-- List peer-reviewed publications, if any -->
-1. [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL]. [DOI_LINK]
+None.
 
 ## Awards
-- [AWARD] - [EVENT] ([YEAR])
+- Silver Medal, Junior Mathematics Olympiad (UK)
+- Represented Everest School in Mathematics competitions (Madrid)
 
 ## References
-- [NAME], [TITLE], [COMPANY] ([EMAIL], [PHONE])
+None on file yet.
 
 More references available upon request.

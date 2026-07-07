@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Tech M&A deal execution (sell-side/buy-side), financial modelling, valuation, industry/vertical research (EdTech, B2B SaaS, IT Services), AI-augmented research workflows (Claude/LLM tools)
+**Moderate match areas:** Broader IB coverage groups (ECM/DCM), corporate development/strategy at tech companies, Python/SQL for data-driven diligence, Spark/R from academic exposure
+**Weak match areas:** Pure software/ML engineering roles, roles requiring deep coding beyond analyst-level Python/SQL, non-finance domains unrelated to Tech M&A
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Tech M&A Analyst/Associate roles (sell-side and buy-side advisory) at boutiques or bulge-bracket banks
+**Moderate:** Corporate development/strategy roles at tech companies, broader IB coverage groups (ECM/DCM), private equity roles touching tech verticals
+**Entry-level:** N/A - already 1.5+ years as an M&A Analyst, not an entry-level candidate
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,14 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Madrid: PASS
+- London: PASS **only if** the employer will sponsor a UK work visa - Juan has no existing UK right to work. If the posting states it will not sponsor (or sponsorship is unconfirmed for a smaller/boutique employer), FLAG for the user rather than assuming PASS
+- Any other city/country: FAIL
+- Remote with occasional office (based in Madrid or London): PASS
 - Frequent international travel: FLAG (discuss with user)
+
+### Sector Exclusion (Hard Fail)
+- **No M&A/legal roles** - litigation finance and similar legal-adjacent M&A work (e.g. Burford Capital-style firms) is a hard exclude regardless of other fit. FAIL immediately, do not score further.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +67,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Continue building depth in Tech M&A / IB, progressing toward Associate level and beyond
+- Deepen the use of AI/LLM tools to modernize deal workflows (research, modelling, pitch material)
+- Build stronger client/stakeholder-facing skills alongside existing analytical depth
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Deal/sector research, financial modelling, valuation work, using AI tools to accelerate workflows, client/relationship-facing work with senior bankers or founders
+- Tasks that drain: Not yet clearly established - flag roles that are purely back-office/administrative with no client or deal exposure and confirm with Juan
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed at BlueBull Partners - can be selective rather than urgent
+- **Flexibility**: Open to relocating between Madrid and London only; no other geographic flexibility confirmed
+- **Professional development**: Prioritizes roles that build both deal-execution depth and AI-augmented workflow skills
 
 ### 6. Salary Benchmark (Optional)
 

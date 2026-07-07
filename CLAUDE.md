@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Juan Peláez Echániz
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Juan Peláez Echániz, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,66 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Juan Peláez Echániz
+- **Location:** Madrid, Spain (open to relocation - Madrid and London only)
+- **Languages:** Spanish (Native), English (Proficient, Cambridge Advanced Certificate C1), French (Basic)
+- **Status:** Employed (Analyst, Tech M&A at BlueBull Partners), open to new opportunities
+- **LinkedIn headline:** "Analyst (Tech M&A) at BlueBull Partners"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Dual Bachelor in Business Administration and Data & Business Analytics** (2020-2025) - IE Business School, Madrid and Segovia, Spain
+  - Honors (Top 5%): Mathematics, Algorithms, Blockchain Technologies
+- **Exchange Program in Business Administration** (Aug-Dec 2023) - UNC Kenan-Flagler Business School, North Carolina, USA
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Analyst (Tech M&A)** (January 2026 - Present) - **BlueBull Partners** (Madrid, Spain)
+  - Advised on 3 mandates simultaneously (sell-side and buy-side), combined EV over €300M
+  - Conducted in-depth research across EdTech, B2B SaaS and IT Services verticals
+  - Leveraged Claude and other AI tools to accelerate deal research, financial modelling and pitch material, standardising deliverables and cutting analysis turnaround
+- **Junior Analyst (Tech M&A)** (January 2025 - December 2025) - **BlueBull Partners** (Madrid, Spain)
+  - Supported companies with over €5M EBITDA in M&A, debt structuring and equity fundraising
+  - Contributed to 10+ projects with pitch decks, financial models and industry analysis
+- **Spring Insight Analyst (Investment Banking)** (April 2023) - **Citi** (London, United Kingdom)
+  - Developed competency in company valuation, financial strategy and market analysis
+  - Built relationships with senior bankers across divisions, gaining first-hand exposure to the sector
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, SQL, financial modelling, valuation, M&A deal execution
+- **Secondary:** Spark, R, Supabase, PostgreSQL
+- **Domain:** Tech M&A (EdTech, B2B SaaS, IT Services), investment banking, sell-side/buy-side advisory
+- **Software:** Advanced Excel, PowerPoint, AI tools (Claude, ChatGPT, LLM-based research and modelling workflows), financial databases and tools
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None on file yet
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Silver Medal, Junior Mathematics Olympiad (UK)
+- Represented Everest School in Mathematics competitions (Madrid)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Analytical/quantitative strength** - strong in modelling, structured analysis, and quantitative reasoning
+- **Relationship-oriented** - builds rapport easily with senior stakeholders (bankers, founders, cross-institution teams)
+- **Strengths:** Quantitative rigor, financial modelling, deal research, applying AI tools to accelerate workflows
+- **Growth areas:** Deepening communication/networking depth to match analytical strength
+- **Thrives in:** Fast-paced deal environments; collaborative team settings
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- The tech/deal content itself - researching companies, sectors, and what makes tech businesses valuable
+- Using AI and LLM-based tools (especially Claude) to modernize traditionally manual finance workflows
+- Building relationships with senior bankers, founders, and other stakeholders
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Tech M&A / Investment Banking: BlueBull Partners, Citi, and comparable bulge-bracket/boutique advisory firms in Madrid and London
+- Adjacent: Corporate Development / Strategy roles at tech companies
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Open to relocation between Madrid and London specifically (not open to other geographies at this time)
+- **No existing UK right to work** - any London/UK role requires the employer to sponsor a visa; roles that state they will not sponsor are a hard exclude
+- **No M&A/legal roles** - excludes litigation finance and similar legal-adjacent M&A work (e.g. Burford Capital-style firms)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

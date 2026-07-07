@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Tech M&A / Investment Banking Analyst roles:**
+> Tech M&A Analyst with hands-on sell-side and buy-side deal experience across EdTech, B2B SaaS and IT Services, including live mandates with a combined enterprise value over €300M. Combines rigorous financial modelling and valuation work with a data-driven approach (Python, SQL) and the use of AI tools such as Claude Code to accelerate research and standardise deliverables. IE Business School graduate (Top 5% Honors) with cross-border exposure through Citi London and UNC Kenan-Flagler.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Corporate Development / Strategy roles:**
+> Analytically-driven dealmaker with 1.5+ years of Tech M&A experience advising on sell-side and buy-side mandates across high-growth software verticals. Brings a blend of financial rigor (valuation, modelling, diligence) and technical fluency (Python, SQL, AI-augmented research workflows using tools like Claude Code) to identify and evaluate strategic opportunities. IE Business School graduate (Dual BBA + Data & Business Analytics, Top 5% Honors).
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

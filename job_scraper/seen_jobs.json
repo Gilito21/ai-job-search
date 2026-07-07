@@ -1,0 +1,132 @@
+{
+  "seen": {
+    "santander-scib-ma-associate-tech-madrid-4429738776": {
+      "title": "M&A Associate (Tech) - SCIB",
+      "company": "Santander Corporate & Investment Banking",
+      "url": "https://es.linkedin.com/jobs/view/m-a-associate-tech-scib-at-santander-corporate-investment-banking-4429738776",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    },
+    "haitong-ma-senior-analyst-junior-associate-madrid-4430415777": {
+      "title": "M&A Senior Analyst / Junior Associate",
+      "company": "HAITONG",
+      "url": "https://es.linkedin.com/jobs/view/m-a-senior-analyst-junior-associate-at-haitong-4430415777",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    },
+    "cmc-consulting-ma-analyst-tech-team-london-4430211306": {
+      "title": "M&A Analyst 1 or 2 - Tech Team",
+      "company": "CMC Consulting Ltd",
+      "url": "https://uk.linkedin.com/jobs/view/m-a-analyst-1-or-2-tech-team-at-cmc-consulting-ltd-4430211306",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "jpmorganchase-ceecat-ma-analyst-london-4430748415": {
+      "title": "Investment Banking - CEECAT M&A - Analyst - London",
+      "company": "JPMorganChase",
+      "url": "https://uk.linkedin.com/jobs/view/investment-banking-ceecat-m-a-analyst-london-at-jpmorganchase-4430748415",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "fintech-ma-analyst-2-3-london-4426969659": {
+      "title": "Fintech M&A Analyst 2-3",
+      "company": "Investment Bank (US boutique, unnamed)",
+      "url": "https://uk.linkedin.com/jobs/view/fintech-m-a-analyst-2-3-4426969659",
+      "first_seen": "2026-07-07",
+      "fit": "excluded",
+      "status": "skipped-no-visa-sponsorship"
+    },
+    "burford-capital-corporate-development-analyst-london-4359101707": {
+      "title": "Corporate Development Analyst",
+      "company": "Burford Capital",
+      "url": "https://uk.linkedin.com/jobs/view/corporate-development-analyst-at-burford-capital-4359101707",
+      "first_seen": "2026-07-07",
+      "fit": "excluded",
+      "status": "skipped-litigation-finance-legal-ma"
+    },
+    "pearse-partners-corporate-development-associate-fs-london-4435067235": {
+      "title": "Corporate Development Associate - Financial Services",
+      "company": "Pearse Partners",
+      "url": "https://uk.linkedin.com/jobs/view/corporate-development-associate-financial-services-at-pearse-partners-4435067235",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    },
+    "kpmg-tech-ma-analyst-manager-associate-director-london-3094653564": {
+      "title": "Tech M&A Analyst/Manager/Associate Director",
+      "company": "KPMG",
+      "url": "https://uk.linkedin.com/jobs/view/tech-m-a-analyst-manager-associate-director-at-kpmg-3094653564",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "pivot-search-ma-associate-london-4114690882": {
+      "title": "M&A Associate",
+      "company": "Pivot Search",
+      "url": "https://uk.linkedin.com/jobs/view/m-a-associate-at-pivot-search-4114690882",
+      "first_seen": "2026-07-07",
+      "fit": "unknown",
+      "status": "skipped-expired"
+    },
+    "santander-scib-ma-analyst-tmt-madrid-4434910356": {
+      "title": "M&A Analyst (TMT) - SCIB",
+      "company": "Santander Corporate & Investment Banking",
+      "url": "https://es.linkedin.com/jobs/view/m-a-analyst-tmt-scib-at-santander-corporate-investment-banking-4434910356",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "fever-ma-analyst-senior-analyst-madrid-4420738259": {
+      "title": "M&A Analyst / Senior Analyst",
+      "company": "Fever",
+      "url": "https://es.linkedin.com/jobs/view/m-a-analyst-senior-analyst-at-fever-4420738259",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "william-blair-ib-analyst-1-technology-london-4430263565": {
+      "title": "Investment Banking Analyst 1, Technology",
+      "company": "William Blair",
+      "url": "https://uk.linkedin.com/jobs/view/investment-banking-analyst-1-technology-at-william-blair-4430263565",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "fever-ma-strategy-value-creation-analyst-madrid-4430653028": {
+      "title": "M&A Strategy and Value Creation Analyst",
+      "company": "Fever",
+      "url": "https://es.linkedin.com/jobs/view/m-a-strategy-and-value-creation-analyst-at-fever-4430653028",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    },
+    "verisure-strategy-analyst-madrid-4433798560": {
+      "title": "Strategy Analyst",
+      "company": "Verisure",
+      "url": "https://es.linkedin.com/jobs/view/strategy-analyst-at-verisure-4433798560",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    },
+    "nebius-corporate-development-associate-london-4387980279": {
+      "title": "Corporate Development Associate",
+      "company": "Nebius",
+      "url": "https://uk.linkedin.com/jobs/view/corporate-development-associate-at-nebius-4387980279",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    },
+    "alan-mitchell-ib-analyst-fintech-london-4434615492": {
+      "title": "Investment Banking Analyst - Fintech Sector",
+      "company": "Alan Mitchell (recruiter, employer unnamed)",
+      "url": "https://uk.linkedin.com/jobs/view/investment-banking-analyst-fintech-sector-at-alan-mitchell-4434615492",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "new"
+    }
+  }
+}

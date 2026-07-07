@@ -1,70 +1,70 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
-
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Juan is based in Madrid, Spain and open to relocation to London only. The built-in job-portal CLI tools in this repo (`jobindex-search`, `jobbank-search`, `jobdanmark-search`, `jobnet-search`) are **Danish-market-specific** and not relevant here. Use instead:
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Primary:
+- **linkedin.com/jobs** - via the `linkedin-search` CLI (`.agents/skills/linkedin-search/`), which is not region-locked
+- Direct Google `site:` searches against LinkedIn Jobs, company career pages, and finance-specific job boards
+
+Recommended finance-specific boards (via Google `site:` search, no dedicated CLI yet):
+- **efinancialcareers.com** / **efinancialcareers.co.uk** - the leading IB/M&A job board for both Madrid and London markets
+- **infojobs.net** - largest general Spanish job board (useful for Madrid-based roles)
+- Company career pages directly for target banks/boutiques
+
+If Juan wants dedicated CLI scraping for eFinancialCareers or InfoJobs (instead of Google site-searches), use `/add-portal` to generate a portal search skill for either site.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries are grouped by priority. Each query should be combined with location terms ("Madrid" or "London") since those are the only two acceptable locations.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Tech M&A Analyst / Associate
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match Juan's strongest and current career direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "Tech M&A Analyst" Madrid OR London
+site:linkedin.com/jobs "M&A Associate" technology Madrid OR London
+site:efinancialcareers.com "M&A" "Analyst" Madrid
+site:efinancialcareers.co.uk "M&A" "Analyst" London
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Investment Banking Analyst (broader IB)
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match Juan's broader IB experience (Citi) and domain expertise in valuation/financial modelling.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Investment Banking Analyst" Madrid OR London
+site:efinancialcareers.com "Investment Banking Analyst" Madrid
+site:efinancialcareers.co.uk "Investment Banking Analyst" London
+```
+
+### Priority 3: Corporate Development / Strategy (adjacent pivot)
+
+Adjacent roles at tech companies that Juan could pivot into.
+
+```
+site:linkedin.com/jobs "Corporate Development" Analyst Madrid OR London
+site:linkedin.com/jobs "Strategy Analyst" technology Madrid OR London
+```
+
+### Priority 4: Broader Finance / Consulting
+
+Wider net for general finance and consulting roles that use similar skills.
+
+```
+site:linkedin.com/jobs "Financial Analyst" technology Madrid OR London
+site:linkedin.com/jobs "Technical Consultant" finance Madrid OR London
+site:infojobs.net "analista M&A" OR "analista financiero" Madrid
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+Juan is only open to Madrid and London - no other cities or countries.
+- **Madrid, Spain** (ideal - current base)
+- **London, United Kingdom** (acceptable - explicitly open to relocation here)
+- Any other city or country: too far - exclude from results
 
 ## Date Filter
 

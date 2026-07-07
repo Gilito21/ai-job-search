@@ -10,30 +10,33 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Running 3 Simultaneous M&A Mandates (Prioritization Under Pressure)
+**S:** At BlueBull Partners, Juan was staffed on 3 live Tech M&A mandates at the same time, spanning both sell-side and buy-side processes with a combined enterprise value over €300M.
+**T:** Deliver quality research, modelling and pitch material across all three mandates in parallel, without letting any one deal slip on deadlines.
+**A:** Prioritized workload by deal-stage urgency, used AI tools (Claude) to accelerate repetitive research and modelling steps, and standardised deliverable templates across mandates to cut duplicated effort.
+**R:** All 3 mandates progressed on schedule; the standardised approach became a reusable workflow for future deals.
+**Use for:** "Tell me about a time you managed competing priorities", "How do you handle a high workload?"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Using AI Tools to Modernize Deal Research (Initiative / Process Improvement)
+**S:** Tech M&A deal research, financial modelling, and pitch material traditionally require significant manual analyst time at BlueBull Partners.
+**T:** Find ways to accelerate turnaround without sacrificing quality across EdTech, B2B SaaS, and IT Services vertical research.
+**A:** Proactively adopted Claude and other AI/LLM-based tools to accelerate research and modelling, standardising deliverables so they were consistent across mandates.
+**R:** Cut analysis turnaround time and standardised the team's approach to deliverables, an approach that has continued into current live mandates.
+**Use for:** "Tell me about a time you improved a process", "How do you use AI/technology in your work?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Leading a Cross-University Team at The MergerSightGroup (Leadership / Collaboration)
+**S:** As IE Partner at The MergerSightGroup, Juan covered up-to-date M&A transactions across all sectors alongside a large external network.
+**T:** Lead a team of 6 IE students while collaborating with over 100 students from top universities and analysts from institutions like Goldman Sachs, J.P. Morgan, and Blackstone.
+**A:** Coordinated the IE team's research contributions and collaborated across institutional lines to keep the group's M&A coverage current and credible.
+**R:** Built a track record of leading a student team while working alongside experienced analysts from leading investment banks, before ever starting full-time work.
+**Use for:** "Tell me about a time you led a team", "How do you work with people outside your organization?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
-
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Co-Founding Lumière Prestige (Entrepreneurship / Initiative)
+**S:** Juan and a co-founder identified an opportunity to launch a non-profit venture producing and selling luxury handmade candles and soap bars.
+**T:** Build the venture from scratch and generate meaningful revenue to donate to a cause (Make-A-Wish).
+**A:** Co-founded and ran the operational and commercial side of the business - production, sales, and fundraising execution.
+**R:** Generated over $3,000 in revenue within two months, all of which was donated to Make-A-Wish.
+**Use for:** "Tell me about a time you took initiative", "Describe an entrepreneurial project you've led"
 
 ## Common Tough Questions
 

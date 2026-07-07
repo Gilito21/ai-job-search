@@ -127,6 +127,22 @@
       "first_seen": "2026-07-07",
       "fit": "medium",
       "status": "new"
+    },
+    "armapartners-analyst-associate-technology-ma-london": {
+      "title": "Analyst/Associate (Technology M&A)",
+      "company": "Arma Partners",
+      "url": "https://www.armapartners.com/ma-analyst-london/",
+      "first_seen": "2026-07-07",
+      "fit": "high",
+      "status": "new"
+    },
+    "sportradar-corporate-development-analyst-london-2026": {
+      "title": "Corporate Development Analyst",
+      "company": "Sportradar",
+      "url": "https://jobs.smartrecruiters.com/Sportradar/744000043247635-corporate-development-analyst",
+      "first_seen": "2026-07-07",
+      "fit": "medium",
+      "status": "skipped-expired"
     }
   }
 }
